@@ -1,0 +1,84 @@
+.slide1 {
+    height: 70vh;
+    background-image: url(../media/slide1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide2 {
+    height: 70vh;
+    background-image: url(../media/products.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .products {
+        background-color: rgba(0, 0, 0, 0.322);
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            color: white;
+            font-family: 'Permanent Marker', cursive;
+            padding: 20px;
+        }
+
+        a {
+            button {
+                padding: 10px;
+                border-radius: 10px;
+                border: 3px solid;
+                background-color: rgba(255, 255, 255, 0.123);
+                color: white;
+                font-family: 'Permanent Marker', cursive;
+                font-size: 20px;
+                &:hover{
+                    color: rgb(165, 33, 33);
+                    background-color: rgba(255, 255, 255, 0.432);
+                }
+            }
+        }
+    }
+}
+
+.slide3{
+    height: 70vh;
+    background-image: url(../media/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .products {
+        background-color: rgba(0, 0, 0, 0.322);
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            color: white;
+            font-family: 'Permanent Marker', cursive;
+            padding: 20px;
+        }
+
+        a {
+            button {
+                padding: 10px;
+                border-radius: 10px;
+                border: 3px solid;
+                background-color: rgba(255, 255, 255, 0.123);
+                color: white;
+                font-family: 'Permanent Marker', cursive;
+                font-size: 20px;
+                &:hover{
+                    color: rgb(165, 33, 33);
+                    background-color: rgba(255, 255, 255, 0.432);
+                }
+            }
+        }
+    }
+}
