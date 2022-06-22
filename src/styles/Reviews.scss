@@ -1,0 +1,16 @@
+.reviews{
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 10px;
+    .title{
+      margin-top: 80px;
+      text-align: center;
+      margin-bottom: 50px;
+      h1{
+        color: white;
+        font-family: 'Permanent Marker', cursive;
+      }
+    }
+    .card{
+        height: 100%;
+    }
+}

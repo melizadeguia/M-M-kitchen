@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { Carousel, Button } from 'react-bootstrap';
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import '../styles/FrontPage.scss';
 import Products from './Products';
-import Reviews from './Reviews'
+import Reviews from './Reviews';
+import Contact1 from './Contact1';
 
 const FrontPage = () => {
 
@@ -29,7 +30,7 @@ const FrontPage = () => {
                                     <h1>
                                         OUR PRODUCTS
                                     </h1>
-                                    <a href='#'><button>See More</button></a>
+                                    <a href='#'><button className='btn'><span>See More</span></button></a>
                                 </div>
                             </div>
                         </Row>
@@ -44,7 +45,7 @@ const FrontPage = () => {
                                     <h1>
                                        CONTACT US
                                     </h1>
-                                    <a href='#'><button>See More</button></a>
+                                    <a href='#'><button className='btn'><span>See More</span></button></a>
                                 </div>
                             </div>
                         </Row>
@@ -54,6 +55,7 @@ const FrontPage = () => {
 
             <Products/>
             <Reviews/>
+            <Contact1/>
         </div>
     )
 }

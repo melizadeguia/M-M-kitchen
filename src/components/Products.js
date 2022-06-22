@@ -22,10 +22,9 @@ const Products = () => {
                             <Card >
                                 <Card.Img variant="top" src={prod1} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title>Food Name</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                       Description here 
                                     </Card.Text>
                                     <Button variant="primary">See More</Button>
                                 </Card.Body>
@@ -36,10 +35,9 @@ const Products = () => {
                             <Card >
                                 <Card.Img variant="top" src={prod2} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title>Food Name</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                       Description here
                                     </Card.Text>
                                     <Button variant="primary">See More</Button>
                                 </Card.Body>
@@ -50,10 +48,9 @@ const Products = () => {
                             <Card>
                                 <Card.Img variant="top" src={prod3} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title>Food Name</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                       Description here
                                     </Card.Text>
                                     <Button variant="primary">See More</Button>
                                 </Card.Body>
