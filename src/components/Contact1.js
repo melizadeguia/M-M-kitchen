@@ -12,7 +12,7 @@ const Contact1 = () => {
                         <div>
                             <h1>Ready to Satisfy your Kravings?</h1>
                             <h3>Order Now!</h3>
-                            <a href='#'><button className='btn'><span>Contact Us</span></button></a>
+                            <a href='/contact'><button className='btn'><span>Contact Us</span></button></a>
                         </div>
                     </div>
                 </Col>

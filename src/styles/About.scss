@@ -1,0 +1,19 @@
+.aboutbanner{
+    background-image: url(../media/products.jpg);
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .aboutbg{
+        background-color: rgba(0, 0, 0, 0.26);
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: white;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 60px;
+        }
+    }
+}
