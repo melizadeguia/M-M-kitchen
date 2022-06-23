@@ -22,10 +22,7 @@ const Products = () => {
                             <Card >
                                 <Card.Img variant="top" src={prod1} />
                                 <Card.Body>
-                                    <Card.Title>Food Name</Card.Title>
-                                    <Card.Text>
-                                       Description here 
-                                    </Card.Text>
+                                    <Card.Title>Special Gimbap</Card.Title>
                                     <Button variant="primary">See More</Button>
                                 </Card.Body>
                             </Card>
@@ -35,10 +32,7 @@ const Products = () => {
                             <Card >
                                 <Card.Img variant="top" src={prod2} />
                                 <Card.Body>
-                                    <Card.Title>Food Name</Card.Title>
-                                    <Card.Text>
-                                       Description here
-                                    </Card.Text>
+                                    <Card.Title>Ssotteok</Card.Title>
                                     <Button variant="primary">See More</Button>
                                 </Card.Body>
                             </Card>
@@ -49,9 +43,6 @@ const Products = () => {
                                 <Card.Img variant="top" src={prod3} />
                                 <Card.Body>
                                     <Card.Title>Food Name</Card.Title>
-                                    <Card.Text>
-                                       Description here
-                                    </Card.Text>
                                     <Button variant="primary">See More</Button>
                                 </Card.Body>
                             </Card>
