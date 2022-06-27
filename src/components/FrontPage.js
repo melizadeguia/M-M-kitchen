@@ -32,7 +32,7 @@ const FrontPage = () => {
                                         <h1>
                                             OUR PRODUCTS
                                         </h1>
-                                        <a href='#'><button className='btn'><span>See More</span></button></a>
+                                        <a href='/products'><button className='btn'><span>See More</span></button></a>
                                     </div>
                                 </div>
                             </Row>
@@ -47,7 +47,7 @@ const FrontPage = () => {
                                         <h1>
                                             CONTACT US
                                         </h1>
-                                        <a href='#'><button className='btn'><span>See More</span></button></a>
+                                        <a href='/contact'><button className='btn'><span>See More</span></button></a>
                                     </div>
                                 </div>
                             </Row>
