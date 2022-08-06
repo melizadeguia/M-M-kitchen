@@ -14,7 +14,7 @@ const Footer = () => {
                     <ul>
                         <li><a href='https://www.facebook.com/MnMKoreanKravingsatbp'><FacebookIcon fontSize='large'/></a></li>
                         <li><a href='https://www.instagram.com/mmkoreankravingsatbp/?fbclid=IwAR1tiAsQmzh25Dm2CYOD_rc8JPn1YZa7n2nx3Xc9Oz9-GKbnlQJ2pjGsK0E'><InstagramIcon fontSize='large'/></a></li>
-                        <li><a href=''><CallIcon fontSize='large'/></a></li>
+                        <li><a href='/contact'><CallIcon fontSize='large'/></a></li>
                     </ul>
                 </Row>
             </Container>
